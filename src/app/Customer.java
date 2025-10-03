@@ -1,8 +1,8 @@
 package app;
 
 public class Customer {
-    private String name;
-    private String lastName;
+    private final String name;
+    private final String lastName;
 
     public Customer(String name, String lastName){
         this.name = name;
