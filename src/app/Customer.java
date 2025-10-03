@@ -2,15 +2,15 @@ package app;
 
 public class Customer {
     private final String name;
-    private final String lastName;
+    private final String phone;
 
-    public Customer(String name, String lastName){
+    public Customer(String name, String phone){
         this.name = name;
-        this.lastName = lastName;
+        this.phone = phone;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getPhone() {
+        return phone;
     }
 
     public String getName() {
